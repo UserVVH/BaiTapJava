@@ -15,7 +15,7 @@ public class DemoBuoi4 {
 				}
 				break;
 			} catch (NumberFormatException e) {
-				System.out.println("Bạn phải nhập vào chữ số");
+				System.out.println("Bạn phải nhập tọa độ > 0");
 			}
 		}
 		return number;
