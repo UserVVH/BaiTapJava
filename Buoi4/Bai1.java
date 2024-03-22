@@ -24,7 +24,7 @@ public class DemoBuoi4 {
 				}
 				break;
 			} catch (NumberFormatException e) {
-				System.out.println("Vui lòng nhập năm sinh hợp lệ, bạn phải nhập số nguyên.");
+				System.out.println("Vui lòng nhập năm sinh hợp lệ, sinh viên phải từ 18 tuổi");
 			}
 		}
 		return namSinh;
