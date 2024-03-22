@@ -17,7 +17,7 @@ public class DemoBuoi4 {
 					continue;
 				}
 			} catch (NumberFormatException e) {
-				System.out.println("Bạn phải nhập số nguyên");
+				System.out.println("Năm sinh không hợp lệ, Vui lòng nhập lại năm sinh từ (1974-2006)");
 			}
 		}
 		return number;
