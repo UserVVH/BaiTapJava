@@ -9,6 +9,7 @@ public class DemoBuoi4 {
 		while (true) {
 			try {
 				number = Integer.parseInt(sc.nextLine());
+				////kiểm tra đủ tuổi làm cán bộ
 				int check = 2024 - number;
 				if (check >= 18 && check <= 50) {
 					break;
