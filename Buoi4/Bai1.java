@@ -17,6 +17,11 @@ public class DemoBuoi4 {
 			try {
 				System.out.print("Nhập năm sinh:");
 				namSinh = Integer.parseInt(sc.nextLine());
+				int check = 2024 - namSinh;
+				if (check < 18 || namSinh < 0) {
+					System.out.println("Vui lòng nhập năm sinh hợp lệ, sinh viên phải từ 18 tuổi");
+					continue;
+				}
 				break;
 			} catch (NumberFormatException e) {
 				System.out.println("Vui lòng nhập năm sinh hợp lệ, bạn phải nhập số nguyên.");
