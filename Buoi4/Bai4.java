@@ -15,7 +15,7 @@ public class DemoBuoi4 {
 				}
 				break;
 			} catch (NumberFormatException e) {
-				System.out.println("Bạn phải nhập vào chữ số và tọa độ > 0");
+				System.out.println("Bạn phải nhập tọa độ là chữ số và phải > 0");
 			}
 		}
 		return number;
@@ -44,7 +44,9 @@ public class DemoBuoi4 {
 
 			// Tính khoảng cách từ nhà sinh viên đến trường đại học
 			double khoangCach = Math.sqrt(Math.pow(truongDaiHocX - nhaX, 2) + Math.pow(truongDaiHocY - nhaY, 2));
-			System.out.println("Khoảng cách là: " + khoangCach);
+			
+			//in khoảng cách
+			//System.out.println("Khoảng cách là: " + khoangCach);
 
 			// So sánh và cập nhật thông tin sinh viên xa trường đại học nhất
 			if (khoangCach > khoangCachMax) {
