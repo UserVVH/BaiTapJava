@@ -24,7 +24,7 @@ public class DemoBuoi4 {
 				}
 				break;
 			} catch (NumberFormatException e) {
-				System.out.println("bạn phải nhập vào số nguyên, ví dụ: 2001");
+				System.out.println("Bạn phải nhập vào số nguyên, ví dụ: 2001");
 			}
 		}
 		return namSinh;
