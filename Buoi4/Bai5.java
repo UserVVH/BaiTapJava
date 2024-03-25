@@ -17,7 +17,7 @@ public class DemoBuoi4 {
 					continue;
 				}
 			} catch (NumberFormatException e) {
-				System.out.println("Vui lòng nhập số lượng > 0");
+				System.out.println("Vui lòng nhập số lượng là số nguyên và phải > 0");
 			}
 		}
 		return number;
@@ -35,7 +35,7 @@ public class DemoBuoi4 {
 					continue;
 				}
 			} catch (NumberFormatException e) {
-				System.out.println("Vui lòng nhập đơn giá > 0");
+				System.out.println("Vui lòng nhập đơn giá là chữ số và phải > 0");
 			}
 		}
 		return number;
