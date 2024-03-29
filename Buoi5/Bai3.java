@@ -2,7 +2,7 @@ package hello;
 
 import java.util.Scanner;
 
-public class DemoBuoi6 {
+public class Main {
 
 	private static int inputNumber(Scanner in) {
 		int number;
