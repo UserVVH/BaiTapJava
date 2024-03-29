@@ -2,7 +2,7 @@ package hello;
 
 import java.util.Scanner;
 
-public class Main {
+public class DemoBuoi6 {
 
 	public static void inSoLeChanWhile() {
 		int i = 0;
