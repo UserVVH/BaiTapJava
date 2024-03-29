@@ -53,16 +53,17 @@ public class Main {
 		System.out.println("\nSử dụng vòng lặp for:");
 		tongSoChanFor(n);
 		in.close();
-//		Kết quả
-//		Nhập n: sdfs 3
-//		Bạn phải nhập vào số > 1
-//		Nhập n: -34
-//		Bạn phải nhập vào số > 1
-//		Nhập n: 70
-//		Sử dụng vòng lặp while:
-//		Tổng các số chẵn từ 1 đến 70 = 1260
-//		Sử dụng vòng lặp for:
-//		Tổng các số chẵn từ 1 đến 70 = 1260
+		
+	//		Kết quả
+	//		Nhập n: sdfs 3
+	//		Bạn phải nhập vào số > 1
+	//		Nhập n: -34
+	//		Bạn phải nhập vào số > 1
+	//		Nhập n: 70
+	//		Sử dụng vòng lặp while:
+	//		Tổng các số chẵn từ 1 đến 70 = 1260
+	//		Sử dụng vòng lặp for:
+	//		Tổng các số chẵn từ 1 đến 70 = 1260
 	}
 
 }
