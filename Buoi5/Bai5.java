@@ -3,7 +3,7 @@ package hello;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class DemoBuoi6 {
+public class Main {
 
 	private static int inputIntNumber(Scanner in, String str) {
 		int number;
