@@ -2,7 +2,7 @@ package hello;
 
 import java.util.Scanner;
 
-public class DemoBuoi6 {
+public class Main {
 
 	private static int tinhTong(int x, int n) {
 		int tong = 0;
