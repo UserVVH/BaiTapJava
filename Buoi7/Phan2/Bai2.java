@@ -4,20 +4,27 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void nhapMang(Scanner in, int[] arr) {
+	public static void inputArray(Scanner in, int[] arr) {
 		for (int i = 0; i < arr.length; ++i) {
 			System.out.print("Nhập vào phần tử thứ " + (i + 1) + ": ");
 			arr[i] = in.nextInt();
 		}
 	}
 
-	public static void findMax(int[] arr) {
+	public static void findMaxNumber(int[] arr) {
+
 		int max = arr[0];
-		System.out.print("Số lớn nhất trong mảng là: ");
+		int maxIndex = 0;
+
 		for (int i = 1; i < arr.length; ++i) {
-			max = Math.max(max, arr[i]);
+			if (arr[i] > max) {
+				max = arr[i];
+				maxIndex = i;
+			}
 		}
-		System.out.print(max);
+
+		System.out.println("Số lớn nhất trong mảng là: " + max);
+		System.out.println("Vị trí của số lớn nhất trong mảng là: " + (maxIndex + 1));
 	}
 
 	public static void main(String[] args) {
@@ -25,8 +32,8 @@ public class Main {
 		System.out.print("Nhập số lượng phần tử của mảng: ");
 		int n = in.nextInt();
 		int[] arr = new int[n];
-		nhapMang(in, arr);
-		findMax(arr);
+		inputArray(in, arr);
+		findMaxNumber(arr);
 		in.close();
 
 	}
