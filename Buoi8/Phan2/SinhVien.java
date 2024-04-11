@@ -1,8 +1,11 @@
 package hello;
 
 public class SinhVien {
-	String ten, maSV;
-	double diemToan, diemmLy, diemHoa;
+	String ten;
+	String maSV;
+	double diemToan;
+	double diemmLy;
+	double diemHoa;
 
 	public SinhVien() {
 	}
