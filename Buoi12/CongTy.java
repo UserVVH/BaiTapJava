@@ -12,12 +12,6 @@ public class CongTy {
 
 	}
 
-	public CongTy(String tenCongTy, String maSoThue, double doanhThuThang) {
-		this.tenCongTy = tenCongTy;
-		this.maSoThue = maSoThue;
-		this.doanhThuThang = doanhThuThang;
-	}
-
 	public void nhap() {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Nhập tên công ty: ");
