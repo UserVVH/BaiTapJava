@@ -15,14 +15,6 @@ public class NhanSu {
 
 	}
 
-	public NhanSu(String maSo, String hoTen, String sdt, int soNgayLamViec, double luong1Ngay) {
-		this.maSo = maSo;
-		this.hoTen = hoTen;
-		this.sdt = sdt;
-		this.soNgayLamViec = soNgayLamViec;
-		this.luong1Ngay = luong1Ngay;
-	}
-
 	public int inputIntNumber(Scanner in) {
 		int number;
 		while (true) {
