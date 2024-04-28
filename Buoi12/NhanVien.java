@@ -12,10 +12,6 @@ public class NhanVien extends NhanSu {
 
 	}
 
-	public NhanVien(String maSo, String hoTen, String sdt, int soNgayLamViec, double luong1Ngay) {
-		super(maSo, hoTen, sdt, soNgayLamViec, luong1Ngay);
-	}
-
 	public void nhap(List<NhanSu> nhanSuList) {
 		System.out.println("Nhập thông tin nhân viên: ");
 		Scanner in = new Scanner(System.in);
