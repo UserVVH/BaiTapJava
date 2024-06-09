@@ -8,10 +8,10 @@ CREATE TABLE user(
 	passwd VARCHAR(255) NOT NULL,
 	first_name VARCHAR(50) NOT NULL,
 	last_name VARCHAR(50) NOT NULL,
-    username VARCHAR(50) NOT NULL,
-    phone VARCHAR(20) NOT NULL,
-    role_id INT, 
-    PRIMARY KEY(id)
+    	username VARCHAR(50) NOT NULL,
+    	phone VARCHAR(20) NOT NULL,
+    	role_id INT, 
+    	PRIMARY KEY(id)
 );
 
 ALTER TABLE `user` ADD CONSTRAINT fk_role_id FOREIGN KEY(role_id) REFERENCES role(id);
